@@ -1,0 +1,20 @@
+.card-content{
+  height: 130px;
+
+}
+.btn{
+  width:100%;
+}
+
+.marked{
+  font-weight:bold;
+  color:#fff !important;
+
+}
+
+.hevered{
+  transform:scale(1.05);
+  box-shadow:  0 0 10px rgba(0, 0 , 0, 0.5);
+  transition: .0s all;
+
+}
