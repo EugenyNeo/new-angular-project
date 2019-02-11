@@ -83,5 +83,6 @@ nav{position: fixed !important;z-index:1000;}
 .page-footer p{font-weight: 400;}
 .page-footer li{font-weight: bold;}
 
-
+.text_img_4{position: absolute;margin-top:2%;margin-left: 23%;}
+.text_img_4 h4{font-weight: 200;}
 

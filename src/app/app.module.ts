@@ -7,7 +7,6 @@ import {HttpModule} from '@angular/http';
 import {HoverDirective} from './hover.directive';
 import {FormsModule} from '@angular/forms';
 import {SearchPipe} from './search.pipe';
-import { HomePageComponent } from './home-page/home-page.component';
 import { SetupPageComponent } from './setup-page/setup-page.component';
 import {RouterModule} from '@angular/router';
 import { AboutPageComponent } from './about-page/about-page.component';
@@ -40,7 +39,6 @@ const routes =[
     UserComponent,
     HoverDirective,
     SearchPipe,
-    HomePageComponent,
     SetupPageComponent,
     AboutPageComponent,
     ProjectPageComponent,
