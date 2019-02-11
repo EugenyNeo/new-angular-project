@@ -1,4 +1,4 @@
-.container{padding-top: 40px;}
+/*.container{padding-top: 40px;}*/
 
 .brand-logo{margin-left: 17%;color:black;font-weight: bold;}
 .search_{width:50%;height:40px;background:#fff;color:black;margin-left:27%;}
@@ -23,7 +23,7 @@ nav{position: fixed !important;z-index:1000;}
 .page-footer{ background: grey;}
 
 
-.image_head img{margin-top:56px;}
+/*.image_head img{margin-top:56px;}*/
 
 .into-text{
   position: absolute;
@@ -36,25 +36,13 @@ nav{position: fixed !important;z-index:1000;}
 .btn{background-color: gold;
   color: black;
   font-weight: bold;}
-.container .section {margin-bottom: 150px;}
+/*.container .section {margin-bottom: 150px;}
 .text_img_2{position: absolute;margin-left: 23%;margin-top: 9%;}
 .text_img_3{position: absolute;margin-left: 23%;margin-top: 36%;}
 
 
 
-.image_box{width: 100%; height: 300px;}
-.image_item{width: 33%; height: 295px;padding:5px;}
-.image_item img {width: 100%; height: 295px;}
-#project h4{margin-top: 55px;margin-bottom: 45px;}
-
-
-
-
-.footer-copyright{background: #212121;height:75px;}
-.page-footer{background: #fff;border-top: 0.5px solid black; background-color:lightgrey;}
-.page-footer h5{font-weight: bold;}
-.page-footer p{font-weight: 400;}
-.page-footer li{font-weight: bold;}
-
-
-
+.image_box{width: 100%; height: 300px;}*/
+/*.image_item{width: 33%; height: 295px;padding:5px;}*/
+/*.image_item img {width: 100%; height: 295px;}*/
+/*#project h4{margin-top: 55px;margin-bottom: 45px;}*/

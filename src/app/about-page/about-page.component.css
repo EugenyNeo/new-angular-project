@@ -1,0 +1,15 @@
+#about{padding:150px 0 150px 0;}
+
+
+.text_img_2 h4{position: absolute;margin-left: 23%;margin-top:0.5%;font-weight: 300;}
+
+
+.image_head{
+  height:400px;
+  width:100%;
+  background-image: url(https://images3.alphacoders.com/190/190239.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50% 80%;
+
+}

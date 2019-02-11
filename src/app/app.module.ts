@@ -10,12 +10,26 @@ import {SearchPipe} from './search.pipe';
 import { HomePageComponent } from './home-page/home-page.component';
 import { SetupPageComponent } from './setup-page/setup-page.component';
 import {RouterModule} from '@angular/router';
+import { AboutPageComponent } from './about-page/about-page.component';
+import { ProjectPageComponent } from './project-page/project-page.component';
+import { ServicesComponent } from './services/services.component';
+import { ContactsComponent } from './contacts/contacts.component';
+import { MainPageComponent } from './main-page/main-page.component';
+import { HeaderComponent } from './header/header.component';
+import { FooterComponent } from './footer/footer.component';
+import { NetworkComponent } from './network/network.component';
+
 
 
 
 const routes =[
-  {path: '', component: HomePageComponent},
-  {path: 'setup', component: SetupPageComponent},
+  {path: '', component: MainPageComponent},
+  {path: 'network', component: NetworkComponent},
+  {path: 'about-page', component: AboutPageComponent},
+  {path: 'project-page', component: ProjectPageComponent},
+  {path: 'services', component: ServicesComponent},
+  {path: 'contacts', component: ContactsComponent},
+  {path: 'setup', component: SetupPageComponent}
 
 ]
 
@@ -27,7 +41,15 @@ const routes =[
     HoverDirective,
     SearchPipe,
     HomePageComponent,
-    SetupPageComponent
+    SetupPageComponent,
+    AboutPageComponent,
+    ProjectPageComponent,
+    ServicesComponent,
+    ContactsComponent,
+    MainPageComponent,
+    HeaderComponent,
+    FooterComponent,
+    NetworkComponent
   ],
   imports: [
     BrowserModule,

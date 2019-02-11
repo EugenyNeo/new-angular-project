@@ -1,5 +1,7 @@
 import { Component } from '@angular/core';
 import { UsersService } from './users.service';
+import {style} from '@angular/animations';
+
 
 
 @Component({
@@ -9,6 +11,17 @@ import { UsersService } from './users.service';
   providers: [UsersService]
 })
 export class AppComponent {
- }
+
+  visibility = true;
+
+  onClick() {
+    this.visibility = !this.visibility;
+  }
+
+  onClickWindow(){
+
+  }
+
+}
 
 //https://randomuser.me/api/?inc=gender,name,picture,location&results=8&nat=gb

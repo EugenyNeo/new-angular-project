@@ -23,7 +23,7 @@ nav{position: fixed !important;z-index:1000;}
 .page-footer{ background: grey;}
 
 
-.image_head img{margin-top:56px;}
+/*.image_head img{margin-top:56px;}*/
 
 .into-text{
   position: absolute;
@@ -39,6 +39,33 @@ nav{position: fixed !important;z-index:1000;}
 .container .section {margin-bottom: 150px;}
 .text_img_2{position: absolute;margin-left: 23%;margin-top: 9%;}
 .text_img_3{position: absolute;margin-left: 23%;margin-top: 36%;}
+
+
+/*.text_img_2 h4{position: absolute;margin-left: 23%;margin-top:2.5%;font-weight: 300;}*/
+
+.image_head{
+  height:900px;
+  width:100%;
+  background-image: url('https://images.wallpaperscraft.com/image/sofa_furniture_walls_comfort_80194_1920x1080.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+
+}
+
+
+.image_head_1{
+  height:400px;
+  width:100%;
+  background-image: url('http://jaworskiblog.com/image/wallpapers-for-furniture/wallpaper-for-furniture-full-h-d-and-background-image-i-372496-artistic-mobile-android-iphone-desktop-hd-love-6-good-morning-sad.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50% 60%;
+
+}
+
+#image_mid{margin-top:150px;}
+/*<img src="https://images.wallpaperscraft.com/image/sofa_furniture_walls_comfort_80194_1920x1080.jpg" height="900" width="1920" alt="img_1">*/
 
 
 
