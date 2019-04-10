@@ -1,5 +1,69 @@
 
+<!--header-->
+<nav class="">
+  <div class="nav-wrapper ">
+    <a href="" class="brand-logo bg-success">The Furniture</a>
+    <ul id="nav-mobile" class="right hide-on-med-and-down">
+
+      <li><a routerLink="">Home</a></li>
+      <li><a routerLink="/about-page">About Us</a></li>
+      <li><a routerLink="/project-page">Our Projects</a></li>
+      <li><a routerLink="/services">Services</a></li>
+      <li><a routerLink="/contacts">Contacts</a></li>
+      <li><a (click)="onClickWindow()" routerLink="/network">Network</a></li>
+      <li><a routerLink="/setup">Setup</a></li>
+      <li ><a (click)="onClick()" href="javascript:DoIt();"><i class="material-icons search">search</i></a></li>
+
+    </ul>
+  </div>
+</nav>
+
+
+<nav class="searchPanel"  [style.display]="(visibility == true) ? 'none' : 'block'" >
+  <div class="container-fluid white-text bg-dark ">
+    <input class="search_"  placeholder="Search field">
+    <a (click)="onClick() " href="javascript:DoIt();"><i class="material-icons cross grey-text">close</i></a>
+  </div>
+</nav>
+
+
 
 
 <router-outlet></router-outlet>
+
+
+<!--footer-->
+<footer class="page-footer">
+  <div class="container">
+    <div class="row">
+      <div class="col l6 s12">
+        <h5 class="black-text center">The Furniture</h5>
+        <p class="black-text text-lighten-4">We are a team of college students working on this project like it's our full time job. Any amount would help support and continue development on this project and is greatly appreciated.</p>
+
+
+      </div>
+
+      <div class="col l6 s12">
+        <!--<h5 class="black-text center">Connect</h5>-->
+        <ul class="footerlink">
+          <li class="center"><a href="headerMain">Home</a></li>
+          <li class="center"><a  routerLink="/about-page">About Us</a></li>
+          <li class="center"><a  routerLink="/project-page">Our Projects</a></li>
+          <li class="center"><a  routerLink="/services">Services</a></li>
+          <li class="center"><a  routerLink="/contacts">Contacts</a></li>
+          <li class="center"><a  routerLink="/network">Network</a></li>
+          <li class="center"><a  routerLink="/setup">Settings</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div class="footer-copyright">
+    <div class="container">
+      <p class="center"> © 2019 SwallowSoft</p>
+
+    </div>
+  </div>
+</footer>
+
+
 

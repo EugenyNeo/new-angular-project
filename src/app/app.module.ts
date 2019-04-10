@@ -14,12 +14,7 @@ import { ProjectPageComponent } from './project-page/project-page.component';
 import { ServicesComponent } from './services/services.component';
 import { ContactsComponent } from './contacts/contacts.component';
 import { MainPageComponent } from './main-page/main-page.component';
-import { HeaderComponent } from './header/header.component';
-import { FooterComponent } from './footer/footer.component';
 import { NetworkComponent } from './network/network.component';
-
-
-
 
 const routes =[
   {path: '', component: MainPageComponent},
@@ -29,6 +24,7 @@ const routes =[
   {path: 'services', component: ServicesComponent},
   {path: 'contacts', component: ContactsComponent},
   {path: 'setup', component: SetupPageComponent}
+
 
 ]
 
@@ -45,8 +41,6 @@ const routes =[
     ServicesComponent,
     ContactsComponent,
     MainPageComponent,
-    HeaderComponent,
-    FooterComponent,
     NetworkComponent
   ],
   imports: [
