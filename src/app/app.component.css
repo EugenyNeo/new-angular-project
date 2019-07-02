@@ -52,9 +52,9 @@ nav{position: fixed !important;z-index:1000;}
 
 
 .footer-copyright{background: #212121;height:75px;}
-.page-footer{background: #fff; background-color:#fff;}
+.page-footer{background: lightgrey;margin-top: 300px;border-top:5px solid black;}
 .page-footer h5{font-weight: bold;}
 .page-footer p{font-weight: 400;}
 .page-footer li{font-weight: bold;}
-.footerlink a{color:black;font-weight: bold;}
+.footerlink a{color:black;font-weight: bold; padding:55px;}
 .footerlink a:hover{color:gold;font-weight: bold;}

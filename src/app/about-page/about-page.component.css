@@ -1,7 +1,7 @@
 #about{padding:150px 0 150px 0;}
 
 
-.text_img_2 h4{position: absolute;margin-left: 23%;margin-top:0.5%;font-weight: 300;}
+.text_img_2 h4{position: absolute;margin-left: 23%;margin-top:18%;font-weight: 300;color:#fff;}
 
 
 .image_head{
@@ -13,3 +13,10 @@
   background-position: 50% 80%;
 
 }
+.main-topic-line{
+  height: 2px;
+  width: 60px;
+  background-color: #ff9f00;
+  margin: 0 auto;
+}
+
