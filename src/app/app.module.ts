@@ -15,6 +15,7 @@ import { ServicesComponent } from './services/services.component';
 import { ContactsComponent } from './contacts/contacts.component';
 import { MainPageComponent } from './main-page/main-page.component';
 import { NetworkComponent } from './network/network.component';
+import { OtherComponent } from './other/other.component';
 
 const routes =[
   {path: '', component: MainPageComponent},
@@ -23,7 +24,8 @@ const routes =[
   {path: 'project-page', component: ProjectPageComponent},
   {path: 'services', component: ServicesComponent},
   {path: 'contacts', component: ContactsComponent},
-  {path: 'setup', component: SetupPageComponent}
+  {path: 'setup', component: SetupPageComponent},
+  {path: 'other', component: OtherComponent}
 
 
 ]
@@ -41,7 +43,8 @@ const routes =[
     ServicesComponent,
     ContactsComponent,
     MainPageComponent,
-    NetworkComponent
+    NetworkComponent,
+    OtherComponent
   ],
   imports: [
     BrowserModule,
